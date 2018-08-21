@@ -1,0 +1,120 @@
+D:\UPC\Desarrollo para plataformas moviles\BackEnd\BussinessRules\bin\Debug\BussinessRules.dll
+D:\UPC\Desarrollo para plataformas moviles\BackEnd\BussinessRules\bin\Debug\BussinessRules.pdb
+D:\UPC\Desarrollo para plataformas moviles\BackEnd\BussinessRules\bin\Debug\BusinessEntities.dll
+D:\UPC\Desarrollo para plataformas moviles\BackEnd\BussinessRules\bin\Debug\DataAccess.dll
+D:\UPC\Desarrollo para plataformas moviles\BackEnd\BussinessRules\bin\Debug\ResultSetMappers.dll
+D:\UPC\Desarrollo para plataformas moviles\BackEnd\BussinessRules\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\UPC\Desarrollo para plataformas moviles\BackEnd\BussinessRules\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\UPC\Desarrollo para plataformas moviles\BackEnd\BussinessRules\bin\Debug\BusinessEntities.pdb
+D:\UPC\Desarrollo para plataformas moviles\BackEnd\BussinessRules\bin\Debug\DataAccess.pdb
+D:\UPC\Desarrollo para plataformas moviles\BackEnd\BussinessRules\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.xml
+D:\UPC\Desarrollo para plataformas moviles\BackEnd\BussinessRules\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+D:\UPC\Desarrollo para plataformas moviles\BackEnd\BussinessRules\obj\Debug\BussinessRules.csprojResolveAssemblyReference.cache
+D:\UPC\Desarrollo para plataformas moviles\BackEnd\BussinessRules\obj\Debug\BussinessRules.dll
+D:\UPC\Desarrollo para plataformas moviles\BackEnd\BussinessRules\obj\Debug\BussinessRules.pdb
+D:\UPC\Desarrollo para moviles\BackEnd\BussinessRules\bin\Debug\BussinessRules.dll
+D:\UPC\Desarrollo para moviles\BackEnd\BussinessRules\bin\Debug\BussinessRules.pdb
+D:\UPC\Desarrollo para moviles\BackEnd\BussinessRules\bin\Debug\BusinessEntities.dll
+D:\UPC\Desarrollo para moviles\BackEnd\BussinessRules\bin\Debug\DataAccess.dll
+D:\UPC\Desarrollo para moviles\BackEnd\BussinessRules\bin\Debug\ResultSetMappers.dll
+D:\UPC\Desarrollo para moviles\BackEnd\BussinessRules\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\UPC\Desarrollo para moviles\BackEnd\BussinessRules\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\UPC\Desarrollo para moviles\BackEnd\BussinessRules\bin\Debug\BusinessEntities.pdb
+D:\UPC\Desarrollo para moviles\BackEnd\BussinessRules\bin\Debug\DataAccess.pdb
+D:\UPC\Desarrollo para moviles\BackEnd\BussinessRules\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.xml
+D:\UPC\Desarrollo para moviles\BackEnd\BussinessRules\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+D:\UPC\Desarrollo para moviles\BackEnd\BussinessRules\obj\Debug\BussinessRules.csprojResolveAssemblyReference.cache
+D:\UPC\Desarrollo para moviles\BackEnd\BussinessRules\obj\Debug\BussinessRules.dll
+D:\UPC\Desarrollo para moviles\BackEnd\BussinessRules\obj\Debug\BussinessRules.pdb
+D:\UPC\Taller de proyectos 02\BackEnd\BussinessRules\bin\Debug\BussinessRules.dll
+D:\UPC\Taller de proyectos 02\BackEnd\BussinessRules\bin\Debug\BussinessRules.pdb
+D:\UPC\Taller de proyectos 02\BackEnd\BussinessRules\bin\Debug\BusinessEntities.dll
+D:\UPC\Taller de proyectos 02\BackEnd\BussinessRules\bin\Debug\DataAccess.dll
+D:\UPC\Taller de proyectos 02\BackEnd\BussinessRules\bin\Debug\ResultSetMappers.dll
+D:\UPC\Taller de proyectos 02\BackEnd\BussinessRules\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\UPC\Taller de proyectos 02\BackEnd\BussinessRules\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\UPC\Taller de proyectos 02\BackEnd\BussinessRules\bin\Debug\BusinessEntities.pdb
+D:\UPC\Taller de proyectos 02\BackEnd\BussinessRules\bin\Debug\DataAccess.pdb
+D:\UPC\Taller de proyectos 02\BackEnd\BussinessRules\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.xml
+D:\UPC\Taller de proyectos 02\BackEnd\BussinessRules\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+D:\UPC\Taller de proyectos 02\BackEnd\BussinessRules\obj\Debug\BussinessRules.csprojResolveAssemblyReference.cache
+D:\UPC\Taller de proyectos 02\BackEnd\BussinessRules\obj\Debug\BussinessRules.dll
+D:\UPC\Taller de proyectos 02\BackEnd\BussinessRules\obj\Debug\BussinessRules.pdb
+C:\Users\Sebastian\Desktop\Muestra\BackEnd\BackEnd\BussinessRules\bin\Debug\BussinessRules.dll
+C:\Users\Sebastian\Desktop\Muestra\BackEnd\BackEnd\BussinessRules\bin\Debug\BussinessRules.pdb
+C:\Users\Sebastian\Desktop\Muestra\BackEnd\BackEnd\BussinessRules\bin\Debug\BusinessEntities.dll
+C:\Users\Sebastian\Desktop\Muestra\BackEnd\BackEnd\BussinessRules\bin\Debug\DataAccess.dll
+C:\Users\Sebastian\Desktop\Muestra\BackEnd\BackEnd\BussinessRules\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Users\Sebastian\Desktop\Muestra\BackEnd\BackEnd\BussinessRules\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Users\Sebastian\Desktop\Muestra\BackEnd\BackEnd\BussinessRules\bin\Debug\BusinessEntities.pdb
+C:\Users\Sebastian\Desktop\Muestra\BackEnd\BackEnd\BussinessRules\bin\Debug\DataAccess.pdb
+C:\Users\Sebastian\Desktop\Muestra\BackEnd\BackEnd\BussinessRules\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.xml
+C:\Users\Sebastian\Desktop\Muestra\BackEnd\BackEnd\BussinessRules\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+C:\Users\Sebastian\Desktop\Muestra\BackEnd\BackEnd\BussinessRules\obj\Debug\BussinessRules.csprojResolveAssemblyReference.cache
+C:\Users\Sebastian\Desktop\Muestra\BackEnd\BackEnd\BussinessRules\obj\Debug\BussinessRules.dll
+C:\Users\Sebastian\Desktop\Muestra\BackEnd\BackEnd\BussinessRules\obj\Debug\BussinessRules.pdb
+D:\UPC\TP2\Entregable 2.2\Integrado\Versión 1\BackEnd\BussinessRules\bin\Debug\BussinessRules.dll
+D:\UPC\TP2\Entregable 2.2\Integrado\Versión 1\BackEnd\BussinessRules\bin\Debug\BussinessRules.pdb
+D:\UPC\TP2\Entregable 2.2\Integrado\Versión 1\BackEnd\BussinessRules\bin\Debug\BusinessEntities.dll
+D:\UPC\TP2\Entregable 2.2\Integrado\Versión 1\BackEnd\BussinessRules\bin\Debug\DataAccess.dll
+D:\UPC\TP2\Entregable 2.2\Integrado\Versión 1\BackEnd\BussinessRules\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\UPC\TP2\Entregable 2.2\Integrado\Versión 1\BackEnd\BussinessRules\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\UPC\TP2\Entregable 2.2\Integrado\Versión 1\BackEnd\BussinessRules\bin\Debug\BusinessEntities.pdb
+D:\UPC\TP2\Entregable 2.2\Integrado\Versión 1\BackEnd\BussinessRules\bin\Debug\DataAccess.pdb
+D:\UPC\TP2\Entregable 2.2\Integrado\Versión 1\BackEnd\BussinessRules\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.xml
+D:\UPC\TP2\Entregable 2.2\Integrado\Versión 1\BackEnd\BussinessRules\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+D:\UPC\TP2\Entregable 2.2\Integrado\Versión 1\BackEnd\BussinessRules\obj\Debug\BussinessRules.csprojResolveAssemblyReference.cache
+D:\UPC\TP2\Entregable 2.2\Integrado\Versión 1\BackEnd\BussinessRules\obj\Debug\BussinessRules.dll
+D:\UPC\TP2\Entregable 2.2\Integrado\Versión 1\BackEnd\BussinessRules\obj\Debug\BussinessRules.pdb
+C:\Users\Sebastian\Desktop\BackEnd\BussinessRules\bin\Debug\BussinessRules.dll
+C:\Users\Sebastian\Desktop\BackEnd\BussinessRules\bin\Debug\BussinessRules.pdb
+C:\Users\Sebastian\Desktop\BackEnd\BussinessRules\bin\Debug\BusinessEntities.dll
+C:\Users\Sebastian\Desktop\BackEnd\BussinessRules\bin\Debug\DataAccess.dll
+C:\Users\Sebastian\Desktop\BackEnd\BussinessRules\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Users\Sebastian\Desktop\BackEnd\BussinessRules\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Users\Sebastian\Desktop\BackEnd\BussinessRules\bin\Debug\BusinessEntities.pdb
+C:\Users\Sebastian\Desktop\BackEnd\BussinessRules\bin\Debug\DataAccess.pdb
+C:\Users\Sebastian\Desktop\BackEnd\BussinessRules\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.xml
+C:\Users\Sebastian\Desktop\BackEnd\BussinessRules\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+C:\Users\Sebastian\Desktop\BackEnd\BussinessRules\obj\Debug\BussinessRules.csprojResolveAssemblyReference.cache
+C:\Users\Sebastian\Desktop\BackEnd\BussinessRules\obj\Debug\BussinessRules.dll
+C:\Users\Sebastian\Desktop\BackEnd\BussinessRules\obj\Debug\BussinessRules.pdb
+D:\UPC\TP2\Entregable Final\Versión Base\BackEnd\BussinessRules\bin\Debug\BussinessRules.dll
+D:\UPC\TP2\Entregable Final\Versión Base\BackEnd\BussinessRules\bin\Debug\BussinessRules.pdb
+D:\UPC\TP2\Entregable Final\Versión Base\BackEnd\BussinessRules\bin\Debug\BusinessEntities.dll
+D:\UPC\TP2\Entregable Final\Versión Base\BackEnd\BussinessRules\bin\Debug\DataAccess.dll
+D:\UPC\TP2\Entregable Final\Versión Base\BackEnd\BussinessRules\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\UPC\TP2\Entregable Final\Versión Base\BackEnd\BussinessRules\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\UPC\TP2\Entregable Final\Versión Base\BackEnd\BussinessRules\bin\Debug\BusinessEntities.pdb
+D:\UPC\TP2\Entregable Final\Versión Base\BackEnd\BussinessRules\bin\Debug\DataAccess.pdb
+D:\UPC\TP2\Entregable Final\Versión Base\BackEnd\BussinessRules\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.xml
+D:\UPC\TP2\Entregable Final\Versión Base\BackEnd\BussinessRules\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+D:\UPC\TP2\Entregable Final\Versión Base\BackEnd\BussinessRules\obj\Debug\BussinessRules.csprojResolveAssemblyReference.cache
+D:\UPC\TP2\Entregable Final\Versión Base\BackEnd\BussinessRules\obj\Debug\BussinessRules.dll
+D:\UPC\TP2\Entregable Final\Versión Base\BackEnd\BussinessRules\obj\Debug\BussinessRules.pdb
+C:\Users\Sebastian\Desktop\Trabajo final\BackEnd\BussinessRules\bin\Debug\BussinessRules.dll
+C:\Users\Sebastian\Desktop\Trabajo final\BackEnd\BussinessRules\bin\Debug\BussinessRules.pdb
+C:\Users\Sebastian\Desktop\Trabajo final\BackEnd\BussinessRules\bin\Debug\BusinessEntities.dll
+C:\Users\Sebastian\Desktop\Trabajo final\BackEnd\BussinessRules\bin\Debug\DataAccess.dll
+C:\Users\Sebastian\Desktop\Trabajo final\BackEnd\BussinessRules\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Users\Sebastian\Desktop\Trabajo final\BackEnd\BussinessRules\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Users\Sebastian\Desktop\Trabajo final\BackEnd\BussinessRules\bin\Debug\BusinessEntities.pdb
+C:\Users\Sebastian\Desktop\Trabajo final\BackEnd\BussinessRules\bin\Debug\DataAccess.pdb
+C:\Users\Sebastian\Desktop\Trabajo final\BackEnd\BussinessRules\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.xml
+C:\Users\Sebastian\Desktop\Trabajo final\BackEnd\BussinessRules\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+C:\Users\Sebastian\Desktop\Trabajo final\BackEnd\BussinessRules\obj\Debug\BussinessRules.csprojResolveAssemblyReference.cache
+C:\Users\Sebastian\Desktop\Trabajo final\BackEnd\BussinessRules\obj\Debug\BussinessRules.dll
+C:\Users\Sebastian\Desktop\Trabajo final\BackEnd\BussinessRules\obj\Debug\BussinessRules.pdb
+D:\UPC\TP2\Entregable Final\Versión Final\Trabajo final\BackEnd\BussinessRules\bin\Debug\BussinessRules.dll
+D:\UPC\TP2\Entregable Final\Versión Final\Trabajo final\BackEnd\BussinessRules\bin\Debug\BussinessRules.pdb
+D:\UPC\TP2\Entregable Final\Versión Final\Trabajo final\BackEnd\BussinessRules\bin\Debug\BusinessEntities.dll
+D:\UPC\TP2\Entregable Final\Versión Final\Trabajo final\BackEnd\BussinessRules\bin\Debug\DataAccess.dll
+D:\UPC\TP2\Entregable Final\Versión Final\Trabajo final\BackEnd\BussinessRules\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\UPC\TP2\Entregable Final\Versión Final\Trabajo final\BackEnd\BussinessRules\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\UPC\TP2\Entregable Final\Versión Final\Trabajo final\BackEnd\BussinessRules\bin\Debug\BusinessEntities.pdb
+D:\UPC\TP2\Entregable Final\Versión Final\Trabajo final\BackEnd\BussinessRules\bin\Debug\DataAccess.pdb
+D:\UPC\TP2\Entregable Final\Versión Final\Trabajo final\BackEnd\BussinessRules\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.xml
+D:\UPC\TP2\Entregable Final\Versión Final\Trabajo final\BackEnd\BussinessRules\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+D:\UPC\TP2\Entregable Final\Versión Final\Trabajo final\BackEnd\BussinessRules\obj\Debug\BussinessRules.csprojResolveAssemblyReference.cache
+D:\UPC\TP2\Entregable Final\Versión Final\Trabajo final\BackEnd\BussinessRules\obj\Debug\BussinessRules.dll
+D:\UPC\TP2\Entregable Final\Versión Final\Trabajo final\BackEnd\BussinessRules\obj\Debug\BussinessRules.pdb

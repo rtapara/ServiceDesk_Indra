@@ -1,0 +1,99 @@
+D:\UPC\Desarrollo para plataformas moviles\BackEnd\DataAccess\bin\Debug\DataAccess.dll
+D:\UPC\Desarrollo para plataformas moviles\BackEnd\DataAccess\bin\Debug\DataAccess.pdb
+D:\UPC\Desarrollo para plataformas moviles\BackEnd\DataAccess\bin\Debug\BusinessEntities.dll
+D:\UPC\Desarrollo para plataformas moviles\BackEnd\DataAccess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\UPC\Desarrollo para plataformas moviles\BackEnd\DataAccess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\UPC\Desarrollo para plataformas moviles\BackEnd\DataAccess\bin\Debug\BusinessEntities.pdb
+D:\UPC\Desarrollo para plataformas moviles\BackEnd\DataAccess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+D:\UPC\Desarrollo para plataformas moviles\BackEnd\DataAccess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.xml
+D:\UPC\Desarrollo para plataformas moviles\BackEnd\DataAccess\obj\Debug\DataAccess.csprojResolveAssemblyReference.cache
+D:\UPC\Desarrollo para plataformas moviles\BackEnd\DataAccess\obj\Debug\DataAccess.dll
+D:\UPC\Desarrollo para plataformas moviles\BackEnd\DataAccess\obj\Debug\DataAccess.pdb
+D:\UPC\Desarrollo para moviles\BackEnd\DataAccess\bin\Debug\DataAccess.dll
+D:\UPC\Desarrollo para moviles\BackEnd\DataAccess\bin\Debug\DataAccess.pdb
+D:\UPC\Desarrollo para moviles\BackEnd\DataAccess\bin\Debug\BusinessEntities.dll
+D:\UPC\Desarrollo para moviles\BackEnd\DataAccess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\UPC\Desarrollo para moviles\BackEnd\DataAccess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\UPC\Desarrollo para moviles\BackEnd\DataAccess\bin\Debug\BusinessEntities.pdb
+D:\UPC\Desarrollo para moviles\BackEnd\DataAccess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+D:\UPC\Desarrollo para moviles\BackEnd\DataAccess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.xml
+D:\UPC\Desarrollo para moviles\BackEnd\DataAccess\obj\Debug\DataAccess.csprojResolveAssemblyReference.cache
+D:\UPC\Desarrollo para moviles\BackEnd\DataAccess\obj\Debug\DataAccess.dll
+D:\UPC\Desarrollo para moviles\BackEnd\DataAccess\obj\Debug\DataAccess.pdb
+D:\UPC\Taller de proyectos 02\BackEnd\DataAccess\bin\Debug\DataAccess.dll
+D:\UPC\Taller de proyectos 02\BackEnd\DataAccess\bin\Debug\DataAccess.pdb
+D:\UPC\Taller de proyectos 02\BackEnd\DataAccess\bin\Debug\BusinessEntities.dll
+D:\UPC\Taller de proyectos 02\BackEnd\DataAccess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\UPC\Taller de proyectos 02\BackEnd\DataAccess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\UPC\Taller de proyectos 02\BackEnd\DataAccess\bin\Debug\BusinessEntities.pdb
+D:\UPC\Taller de proyectos 02\BackEnd\DataAccess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+D:\UPC\Taller de proyectos 02\BackEnd\DataAccess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.xml
+D:\UPC\Taller de proyectos 02\BackEnd\DataAccess\obj\Debug\DataAccess.csprojResolveAssemblyReference.cache
+D:\UPC\Taller de proyectos 02\BackEnd\DataAccess\obj\Debug\DataAccess.dll
+D:\UPC\Taller de proyectos 02\BackEnd\DataAccess\obj\Debug\DataAccess.pdb
+C:\Users\Sebastian\Desktop\Muestra\BackEnd\BackEnd\DataAccess\bin\Debug\DataAccess.dll
+C:\Users\Sebastian\Desktop\Muestra\BackEnd\BackEnd\DataAccess\bin\Debug\DataAccess.pdb
+C:\Users\Sebastian\Desktop\Muestra\BackEnd\BackEnd\DataAccess\bin\Debug\BusinessEntities.dll
+C:\Users\Sebastian\Desktop\Muestra\BackEnd\BackEnd\DataAccess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Users\Sebastian\Desktop\Muestra\BackEnd\BackEnd\DataAccess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Users\Sebastian\Desktop\Muestra\BackEnd\BackEnd\DataAccess\bin\Debug\BusinessEntities.pdb
+C:\Users\Sebastian\Desktop\Muestra\BackEnd\BackEnd\DataAccess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+C:\Users\Sebastian\Desktop\Muestra\BackEnd\BackEnd\DataAccess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.xml
+C:\Users\Sebastian\Desktop\Muestra\BackEnd\BackEnd\DataAccess\obj\Debug\DataAccess.csprojResolveAssemblyReference.cache
+C:\Users\Sebastian\Desktop\Muestra\BackEnd\BackEnd\DataAccess\obj\Debug\DataAccess.dll
+C:\Users\Sebastian\Desktop\Muestra\BackEnd\BackEnd\DataAccess\obj\Debug\DataAccess.pdb
+D:\UPC\TP2\Entregable 2.2\Integrado\Versión 1\BackEnd\DataAccess\bin\Debug\DataAccess.dll
+D:\UPC\TP2\Entregable 2.2\Integrado\Versión 1\BackEnd\DataAccess\bin\Debug\DataAccess.pdb
+D:\UPC\TP2\Entregable 2.2\Integrado\Versión 1\BackEnd\DataAccess\bin\Debug\BusinessEntities.dll
+D:\UPC\TP2\Entregable 2.2\Integrado\Versión 1\BackEnd\DataAccess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\UPC\TP2\Entregable 2.2\Integrado\Versión 1\BackEnd\DataAccess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\UPC\TP2\Entregable 2.2\Integrado\Versión 1\BackEnd\DataAccess\bin\Debug\BusinessEntities.pdb
+D:\UPC\TP2\Entregable 2.2\Integrado\Versión 1\BackEnd\DataAccess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+D:\UPC\TP2\Entregable 2.2\Integrado\Versión 1\BackEnd\DataAccess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.xml
+D:\UPC\TP2\Entregable 2.2\Integrado\Versión 1\BackEnd\DataAccess\obj\Debug\DataAccess.csprojResolveAssemblyReference.cache
+D:\UPC\TP2\Entregable 2.2\Integrado\Versión 1\BackEnd\DataAccess\obj\Debug\DataAccess.dll
+D:\UPC\TP2\Entregable 2.2\Integrado\Versión 1\BackEnd\DataAccess\obj\Debug\DataAccess.pdb
+C:\Users\Sebastian\Desktop\BackEnd\DataAccess\bin\Debug\DataAccess.dll
+C:\Users\Sebastian\Desktop\BackEnd\DataAccess\bin\Debug\DataAccess.pdb
+C:\Users\Sebastian\Desktop\BackEnd\DataAccess\bin\Debug\BusinessEntities.dll
+C:\Users\Sebastian\Desktop\BackEnd\DataAccess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Users\Sebastian\Desktop\BackEnd\DataAccess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Users\Sebastian\Desktop\BackEnd\DataAccess\bin\Debug\BusinessEntities.pdb
+C:\Users\Sebastian\Desktop\BackEnd\DataAccess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+C:\Users\Sebastian\Desktop\BackEnd\DataAccess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.xml
+C:\Users\Sebastian\Desktop\BackEnd\DataAccess\obj\Debug\DataAccess.csprojResolveAssemblyReference.cache
+C:\Users\Sebastian\Desktop\BackEnd\DataAccess\obj\Debug\DataAccess.dll
+C:\Users\Sebastian\Desktop\BackEnd\DataAccess\obj\Debug\DataAccess.pdb
+D:\UPC\TP2\Entregable Final\Versión Base\BackEnd\DataAccess\bin\Debug\DataAccess.dll
+D:\UPC\TP2\Entregable Final\Versión Base\BackEnd\DataAccess\bin\Debug\DataAccess.pdb
+D:\UPC\TP2\Entregable Final\Versión Base\BackEnd\DataAccess\bin\Debug\BusinessEntities.dll
+D:\UPC\TP2\Entregable Final\Versión Base\BackEnd\DataAccess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\UPC\TP2\Entregable Final\Versión Base\BackEnd\DataAccess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\UPC\TP2\Entregable Final\Versión Base\BackEnd\DataAccess\bin\Debug\BusinessEntities.pdb
+D:\UPC\TP2\Entregable Final\Versión Base\BackEnd\DataAccess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+D:\UPC\TP2\Entregable Final\Versión Base\BackEnd\DataAccess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.xml
+D:\UPC\TP2\Entregable Final\Versión Base\BackEnd\DataAccess\obj\Debug\DataAccess.csprojResolveAssemblyReference.cache
+D:\UPC\TP2\Entregable Final\Versión Base\BackEnd\DataAccess\obj\Debug\DataAccess.dll
+D:\UPC\TP2\Entregable Final\Versión Base\BackEnd\DataAccess\obj\Debug\DataAccess.pdb
+C:\Users\Sebastian\Desktop\Trabajo final\BackEnd\DataAccess\bin\Debug\DataAccess.dll
+C:\Users\Sebastian\Desktop\Trabajo final\BackEnd\DataAccess\bin\Debug\DataAccess.pdb
+C:\Users\Sebastian\Desktop\Trabajo final\BackEnd\DataAccess\bin\Debug\BusinessEntities.dll
+C:\Users\Sebastian\Desktop\Trabajo final\BackEnd\DataAccess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Users\Sebastian\Desktop\Trabajo final\BackEnd\DataAccess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Users\Sebastian\Desktop\Trabajo final\BackEnd\DataAccess\bin\Debug\BusinessEntities.pdb
+C:\Users\Sebastian\Desktop\Trabajo final\BackEnd\DataAccess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+C:\Users\Sebastian\Desktop\Trabajo final\BackEnd\DataAccess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.xml
+C:\Users\Sebastian\Desktop\Trabajo final\BackEnd\DataAccess\obj\Debug\DataAccess.csprojResolveAssemblyReference.cache
+C:\Users\Sebastian\Desktop\Trabajo final\BackEnd\DataAccess\obj\Debug\DataAccess.dll
+C:\Users\Sebastian\Desktop\Trabajo final\BackEnd\DataAccess\obj\Debug\DataAccess.pdb
+D:\UPC\TP2\Entregable Final\Versión Final\Trabajo final\BackEnd\DataAccess\bin\Debug\DataAccess.dll
+D:\UPC\TP2\Entregable Final\Versión Final\Trabajo final\BackEnd\DataAccess\bin\Debug\DataAccess.pdb
+D:\UPC\TP2\Entregable Final\Versión Final\Trabajo final\BackEnd\DataAccess\bin\Debug\BusinessEntities.dll
+D:\UPC\TP2\Entregable Final\Versión Final\Trabajo final\BackEnd\DataAccess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\UPC\TP2\Entregable Final\Versión Final\Trabajo final\BackEnd\DataAccess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\UPC\TP2\Entregable Final\Versión Final\Trabajo final\BackEnd\DataAccess\bin\Debug\BusinessEntities.pdb
+D:\UPC\TP2\Entregable Final\Versión Final\Trabajo final\BackEnd\DataAccess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+D:\UPC\TP2\Entregable Final\Versión Final\Trabajo final\BackEnd\DataAccess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.xml
+D:\UPC\TP2\Entregable Final\Versión Final\Trabajo final\BackEnd\DataAccess\obj\Debug\DataAccess.csprojResolveAssemblyReference.cache
+D:\UPC\TP2\Entregable Final\Versión Final\Trabajo final\BackEnd\DataAccess\obj\Debug\DataAccess.dll
+D:\UPC\TP2\Entregable Final\Versión Final\Trabajo final\BackEnd\DataAccess\obj\Debug\DataAccess.pdb

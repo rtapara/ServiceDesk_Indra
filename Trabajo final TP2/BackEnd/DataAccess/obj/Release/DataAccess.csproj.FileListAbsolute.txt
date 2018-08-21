@@ -1,0 +1,11 @@
+D:\UPC\Desarrollo para moviles\BackEnd\DataAccess\obj\Release\DataAccess.csprojResolveAssemblyReference.cache
+D:\UPC\Desarrollo para moviles\BackEnd\DataAccess\bin\Release\DataAccess.dll
+D:\UPC\Desarrollo para moviles\BackEnd\DataAccess\bin\Release\DataAccess.pdb
+D:\UPC\Desarrollo para moviles\BackEnd\DataAccess\bin\Release\BusinessEntities.dll
+D:\UPC\Desarrollo para moviles\BackEnd\DataAccess\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\UPC\Desarrollo para moviles\BackEnd\DataAccess\bin\Release\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\UPC\Desarrollo para moviles\BackEnd\DataAccess\bin\Release\BusinessEntities.pdb
+D:\UPC\Desarrollo para moviles\BackEnd\DataAccess\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.xml
+D:\UPC\Desarrollo para moviles\BackEnd\DataAccess\bin\Release\Microsoft.Practices.EnterpriseLibrary.Data.xml
+D:\UPC\Desarrollo para moviles\BackEnd\DataAccess\obj\Release\DataAccess.dll
+D:\UPC\Desarrollo para moviles\BackEnd\DataAccess\obj\Release\DataAccess.pdb

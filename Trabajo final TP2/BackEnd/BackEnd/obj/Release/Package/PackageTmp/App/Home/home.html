@@ -1,0 +1,18 @@
+﻿<div ng-controller="homeController">
+    <div style="height:5px"></div>
+    <div><a href="#home">Menú principal</a>&nbsp;&nbsp;&nbsp;<a href="#logout">Salir del sistema</a></div>
+    <div style="height:5px"></div>
+    <div dx-nav-bar="{
+                        items: [
+                            { text: 'Registrar usuario', icon: 'group' },
+                            { text: 'Crear campaña', icon: 'globe' },
+                            { text: 'Cerrar campaña', icon: 'product' },
+                            { text: 'Cargar morosos', icon: 'box' },
+                            { text: 'Cargar agentes', icon: 'card'},
+                            { text: 'Verificar avance', icon: 'chart' },
+                            { text: 'Salir', icon: 'close' }
+                        ],
+                        onItemClick: navItemClicked
+                    }">
+    </div>
+</div>

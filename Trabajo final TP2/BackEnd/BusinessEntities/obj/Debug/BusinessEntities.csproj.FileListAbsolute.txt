@@ -1,0 +1,39 @@
+D:\UPC\Desarrollo para plataformas moviles\BackEnd\BusinessEntities\bin\Debug\BusinessEntities.dll
+D:\UPC\Desarrollo para plataformas moviles\BackEnd\BusinessEntities\bin\Debug\BusinessEntities.pdb
+D:\UPC\Desarrollo para plataformas moviles\BackEnd\BusinessEntities\obj\Debug\BusinessEntities.csprojResolveAssemblyReference.cache
+D:\UPC\Desarrollo para plataformas moviles\BackEnd\BusinessEntities\obj\Debug\BusinessEntities.dll
+D:\UPC\Desarrollo para plataformas moviles\BackEnd\BusinessEntities\obj\Debug\BusinessEntities.pdb
+D:\UPC\Desarrollo para moviles\BackEnd\BusinessEntities\bin\Debug\BusinessEntities.dll
+D:\UPC\Desarrollo para moviles\BackEnd\BusinessEntities\bin\Debug\BusinessEntities.pdb
+D:\UPC\Desarrollo para moviles\BackEnd\BusinessEntities\obj\Debug\BusinessEntities.dll
+D:\UPC\Desarrollo para moviles\BackEnd\BusinessEntities\obj\Debug\BusinessEntities.pdb
+D:\UPC\Taller de proyectos 02\BackEnd\BusinessEntities\bin\Debug\BusinessEntities.dll
+D:\UPC\Taller de proyectos 02\BackEnd\BusinessEntities\bin\Debug\BusinessEntities.pdb
+D:\UPC\Taller de proyectos 02\BackEnd\BusinessEntities\obj\Debug\BusinessEntities.csprojResolveAssemblyReference.cache
+D:\UPC\Taller de proyectos 02\BackEnd\BusinessEntities\obj\Debug\BusinessEntities.dll
+D:\UPC\Taller de proyectos 02\BackEnd\BusinessEntities\obj\Debug\BusinessEntities.pdb
+C:\Users\Sebastian\Desktop\Muestra\BackEnd\BackEnd\BusinessEntities\bin\Debug\BusinessEntities.dll
+C:\Users\Sebastian\Desktop\Muestra\BackEnd\BackEnd\BusinessEntities\bin\Debug\BusinessEntities.pdb
+C:\Users\Sebastian\Desktop\Muestra\BackEnd\BackEnd\BusinessEntities\obj\Debug\BusinessEntities.csprojResolveAssemblyReference.cache
+C:\Users\Sebastian\Desktop\Muestra\BackEnd\BackEnd\BusinessEntities\obj\Debug\BusinessEntities.dll
+C:\Users\Sebastian\Desktop\Muestra\BackEnd\BackEnd\BusinessEntities\obj\Debug\BusinessEntities.pdb
+C:\Users\Sebastian\Desktop\BackEnd\BusinessEntities\bin\Debug\BusinessEntities.dll
+C:\Users\Sebastian\Desktop\BackEnd\BusinessEntities\bin\Debug\BusinessEntities.pdb
+C:\Users\Sebastian\Desktop\BackEnd\BusinessEntities\obj\Debug\BusinessEntities.csprojResolveAssemblyReference.cache
+C:\Users\Sebastian\Desktop\BackEnd\BusinessEntities\obj\Debug\BusinessEntities.dll
+C:\Users\Sebastian\Desktop\BackEnd\BusinessEntities\obj\Debug\BusinessEntities.pdb
+D:\UPC\TP2\Entregable Final\Versión Base\BackEnd\BusinessEntities\bin\Debug\BusinessEntities.dll
+D:\UPC\TP2\Entregable Final\Versión Base\BackEnd\BusinessEntities\bin\Debug\BusinessEntities.pdb
+D:\UPC\TP2\Entregable Final\Versión Base\BackEnd\BusinessEntities\obj\Debug\BusinessEntities.csprojResolveAssemblyReference.cache
+D:\UPC\TP2\Entregable Final\Versión Base\BackEnd\BusinessEntities\obj\Debug\BusinessEntities.dll
+D:\UPC\TP2\Entregable Final\Versión Base\BackEnd\BusinessEntities\obj\Debug\BusinessEntities.pdb
+C:\Users\Sebastian\Desktop\Trabajo final\BackEnd\BusinessEntities\bin\Debug\BusinessEntities.dll
+C:\Users\Sebastian\Desktop\Trabajo final\BackEnd\BusinessEntities\bin\Debug\BusinessEntities.pdb
+C:\Users\Sebastian\Desktop\Trabajo final\BackEnd\BusinessEntities\obj\Debug\BusinessEntities.csprojResolveAssemblyReference.cache
+C:\Users\Sebastian\Desktop\Trabajo final\BackEnd\BusinessEntities\obj\Debug\BusinessEntities.dll
+C:\Users\Sebastian\Desktop\Trabajo final\BackEnd\BusinessEntities\obj\Debug\BusinessEntities.pdb
+D:\UPC\TP2\Entregable Final\Versión Final\Trabajo final\BackEnd\BusinessEntities\bin\Debug\BusinessEntities.dll
+D:\UPC\TP2\Entregable Final\Versión Final\Trabajo final\BackEnd\BusinessEntities\bin\Debug\BusinessEntities.pdb
+D:\UPC\TP2\Entregable Final\Versión Final\Trabajo final\BackEnd\BusinessEntities\obj\Debug\BusinessEntities.csprojResolveAssemblyReference.cache
+D:\UPC\TP2\Entregable Final\Versión Final\Trabajo final\BackEnd\BusinessEntities\obj\Debug\BusinessEntities.dll
+D:\UPC\TP2\Entregable Final\Versión Final\Trabajo final\BackEnd\BusinessEntities\obj\Debug\BusinessEntities.pdb

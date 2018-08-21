@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>DevExtreme.Library</id>
+    <version>17.1.5</version>
+    <title>DevExtreme.Library</title>
+    <authors>Ali Bahari</authors>
+    <owners>Ali Bahari</owners>
+    <licenseUrl>https://js.devexpress.com/Licensing/</licenseUrl>
+    <projectUrl>https://js.devexpress.com/</projectUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description>DevExpress DevExtreme JavaScript Library.</description>
+    <summary />
+    <language>en-US</language>
+    <tags>JavaScript DevExpress DevExtreme</tags>
+  </metadata>
+</package>

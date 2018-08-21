@@ -1,0 +1,66 @@
+﻿    body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', 'Helvetica Neue', 'Trebuchet MS', Verdana;
+    font-size:12px;
+    height: 100%;
+    width: 100%;
+    min-width: 1100px;
+    background-color: #e7e9ed;
+    overflow-y:hidden!important;
+    overflow-x:hidden;
+    -ms-overflow-style: none;
+}
+
+a {
+    color: #8590b4;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #bf4e6a;
+}
+
+.ContentTable{
+    display: table;
+    border: none;
+    width: 100%;
+}
+.ContentLabel{
+    display: table-cell;
+    border: none;
+    width:auto;
+    padding-left:6px;
+    padding-right:4px;
+    vertical-align:middle;
+}
+.ContentInput{
+    display: table-cell;
+    border: none;
+    text-align:left
+}
+.ContentButton{
+    display: table-cell;
+    border: none;
+    text-align:left;
+}
+.header {
+    background-color:black;
+    color:white;
+    align-content:stretch;
+    padding:5px 5px 5px 5px
+}
+
+.main-content {
+    overflow: hidden;
+    height: calc(100% - 55px);
+    background-color: #fafafa;
+    border: 1px solid #cfcfcf;
+    border-radius: 3px;
+    box-shadow: 0px 1px 4px 0px rgba(0,0,0,0.1);
+    margin: 0 0 0 0;
+}

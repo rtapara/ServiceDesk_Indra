@@ -1,0 +1,16 @@
+D:\UPC\Desarrollo para moviles\BackEnd\WcfService\bin\WcfService.dll.config
+D:\UPC\Desarrollo para moviles\BackEnd\WcfService\bin\WcfService.dll
+D:\UPC\Desarrollo para moviles\BackEnd\WcfService\bin\WcfService.pdb
+D:\UPC\Desarrollo para moviles\BackEnd\WcfService\bin\BusinessEntities.dll
+D:\UPC\Desarrollo para moviles\BackEnd\WcfService\bin\BussinessRules.dll
+D:\UPC\Desarrollo para moviles\BackEnd\WcfService\bin\DataAccess.dll
+D:\UPC\Desarrollo para moviles\BackEnd\WcfService\bin\ResultSetMappers.dll
+D:\UPC\Desarrollo para moviles\BackEnd\WcfService\bin\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\UPC\Desarrollo para moviles\BackEnd\WcfService\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\UPC\Desarrollo para moviles\BackEnd\WcfService\bin\BusinessEntities.pdb
+D:\UPC\Desarrollo para moviles\BackEnd\WcfService\bin\BussinessRules.pdb
+D:\UPC\Desarrollo para moviles\BackEnd\WcfService\bin\DataAccess.pdb
+D:\UPC\Desarrollo para moviles\BackEnd\WcfService\bin\Microsoft.Practices.EnterpriseLibrary.Common.xml
+D:\UPC\Desarrollo para moviles\BackEnd\WcfService\obj\Debug\WcfService.csprojResolveAssemblyReference.cache
+D:\UPC\Desarrollo para moviles\BackEnd\WcfService\obj\Debug\WcfService.dll
+D:\UPC\Desarrollo para moviles\BackEnd\WcfService\obj\Debug\WcfService.pdb

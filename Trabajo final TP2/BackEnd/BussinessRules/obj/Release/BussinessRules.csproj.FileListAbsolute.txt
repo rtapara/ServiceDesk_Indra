@@ -1,0 +1,14 @@
+D:\UPC\Desarrollo para moviles\BackEnd\BussinessRules\obj\Release\BussinessRules.csprojResolveAssemblyReference.cache
+D:\UPC\Desarrollo para moviles\BackEnd\BussinessRules\bin\Release\BussinessRules.dll
+D:\UPC\Desarrollo para moviles\BackEnd\BussinessRules\bin\Release\BussinessRules.pdb
+D:\UPC\Desarrollo para moviles\BackEnd\BussinessRules\bin\Release\BusinessEntities.dll
+D:\UPC\Desarrollo para moviles\BackEnd\BussinessRules\bin\Release\DataAccess.dll
+D:\UPC\Desarrollo para moviles\BackEnd\BussinessRules\bin\Release\ResultSetMappers.dll
+D:\UPC\Desarrollo para moviles\BackEnd\BussinessRules\bin\Release\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\UPC\Desarrollo para moviles\BackEnd\BussinessRules\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\UPC\Desarrollo para moviles\BackEnd\BussinessRules\bin\Release\BusinessEntities.pdb
+D:\UPC\Desarrollo para moviles\BackEnd\BussinessRules\bin\Release\DataAccess.pdb
+D:\UPC\Desarrollo para moviles\BackEnd\BussinessRules\bin\Release\Microsoft.Practices.EnterpriseLibrary.Data.xml
+D:\UPC\Desarrollo para moviles\BackEnd\BussinessRules\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.xml
+D:\UPC\Desarrollo para moviles\BackEnd\BussinessRules\obj\Release\BussinessRules.dll
+D:\UPC\Desarrollo para moviles\BackEnd\BussinessRules\obj\Release\BussinessRules.pdb

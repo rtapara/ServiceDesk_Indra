@@ -1,0 +1,144 @@
+﻿<div ng-controller="usuarioController">
+    <div style="height:5px"></div>
+    <div><a href="#home">Menú principal</a>&nbsp;&nbsp;&nbsp;<a href="#logout">Salir del sistema</a></div>
+    <div style="height:5px"></div>
+    <div id="title"><h3><b>Registro de usuarios</b></h3></div>
+    <div id="gdvUsers" style="width:100%" data-ng-init="initData()" dx-data-grid="{
+            columns:[
+                        {
+                            dataField:'COD_USUA',
+                            caption:' ',
+                            width:50,
+                            cellTemplate: cellTemplate,
+                            headerCellTemplate: headerTemplate,
+                            allowSorting: false,
+                            allowFiltering: false,
+                            alignment: 'center'
+                        },
+						{ dataField:'COD_USUA',caption:'Usuario',width:100},
+						{ dataField:'ALF_AGEN',caption:'Agente',width:200},
+						{ dataField:'ALF_DNII',caption:'Dni',width:150},
+						{ dataField:'ALF_DIRE',caption:'Dirección',width:300}
+            ],
+            filterRow: {
+                visible: true
+            },
+            sorting: {
+                mode: 'multiple'
+            },
+            paging: {
+                pageSize: 30
+            },
+            pager: {
+                    showPageSizeSelector: true,
+                    allowedPageSizes: [10, 20, 50, 100]
+            },
+            summary:{
+	            totalItems:[{
+		            column: 'Nombre comercio',
+		            summaryType: 'count'
+	            }]
+            },
+            height: hgt,
+            showBorders: true,
+            showRowLines: true,
+            wordWrapEnabled: true,
+            selection: { mode: 'single' },
+            hoverStateEnabled: true,
+            loadPanel: { enabled: true },
+            rowAlternationEnabled:true
+         }"></div>
+
+    <div id="popupUser" dx-popup="{ width: 600, height: 500, deferRendering: false,
+         title: '', toolbarItems: buttonsActionUser }">
+        <div class="ContentTable">
+            <div>
+                <div class="ContentLabel" style="width:150px">Colaborador:</div>
+                <div class="ContentInput">
+                    <div id="txtCOD_AGEN" dx-text-box="{ visible:false, width: 350, readOnly: true, readOnly:true }"></div>
+                    <div id="txtALF_AGEN" dx-text-box="{ width: 250, readOnly: true }"></div>
+                </div>
+                <div class="ContentButton">
+                    <div dx-button="{ text:'...',onClick:showPopupSearchAgent }"></div>
+                </div>
+            </div>
+            <div>
+                <div class="ContentLabel" style="width:150px">Dni:</div>
+                <div class="ContentInput"><div id="txtALF_DNII" dx-text-box="{ width: 150, readOnly: true }"></div></div>
+            </div>
+            <div>
+                <div class="ContentLabel" style="width:150px">Dirección:</div>
+                <div class="ContentInput"><div id="txtALF_DIRE" dx-text-box="{ width: 350, readOnly: true }"></div></div>
+            </div>
+            <div>
+                <div class="ContentLabel" style="width:150px">Usuario:</div>
+                <div class="ContentInput"><div id="txtCOD_USUA" dx-text-box="{ width: 150, readOnly: false }"></div></div>
+            </div>
+            <div>
+                <div class="ContentLabel" style="width:150px">Contraseña:</div>
+                <div class="ContentInput"><div id="txtALF_PASS" dx-text-box="{ width: 150, readOnly: false, mode:'password' }"></div></div>
+            </div>
+            <div>
+                <div class="ContentLabel" style="width:150px">Repetir contraseña:</div>
+                <div class="ContentInput"><div id="txtALF_PASS_REPE" dx-text-box="{ width: 150, readOnly: false, mode:'password' }"></div></div>
+            </div>
+            <div>
+                <div class="ContentLabel" style="width:150px">Tipo Usuario:</div>
+                <div class="ContentInput"><div id="cmbCOD_TIPO" ng-init="initDataUsersType()" dx-select-box="{  displayExpr: 'ALF_TIPO_USUA',
+                                                                                  valueExpr: 'COD_TIPO_USUA',
+                                                                                  searchEnabled: true,
+                                                                                  searchMode: 'contains',
+                                                                                  width: 150}"></div>
+                </div>
+            </div>
+            <div>
+                <div class="ContentLabel" style="width:150px">Token:</div>
+                <div class="ContentInput"><div id="txtNUM_TOKE" dx-text-box="{ width: 150, readOnly: true }"></div></div>
+            </div>
+            <div>
+                <div class="ContentLabel" style="width:150px">Estado:</div>
+                <div class="ContentInput"><div id="chkIND_ESTA" dx-check-box="{}"></div></div>
+            </div>
+        </div>
+    </div>
+
+    <div id="popupSearchAgent" dx-popup="{ title: 'Buscar agente', showTitle: true, deferRendering: false,
+                                           toolbarItems: buttonsActionSearchAgent, width: 600, height: 500 }">
+        <div class="ContentTable">
+            <div>
+                <div class="ContentLabel">Colaborador:</div>
+                <div class="ContentInput"><div id="txtALF_AGEN_REFE" dx-text-box="{width:430}"></div></div>
+                <div class="ContentButton">
+                    <div dx-button="{icon:'find',onClick:searchAgent}"></div>
+                </div>
+            </div>
+            <div>
+                <div class="ContentLabel" style="width:550px">
+                    <div id="gdvColaborator" style="width:550px" dx-data-grid="{
+                    columns:[
+                                {
+                                    dataField:'COD_AGEN',
+                                    caption:' ',
+                                    width:50,
+                                    cellTemplate: cellTemplateAgentSearch,
+                                    allowSorting: false,
+                                    allowFiltering: false,
+                                    alignment: 'center'
+                                },
+						        { dataField:'ALF_AGEN',caption:'Agente'},
+						        { dataField:'ALF_DNII',caption:'Dni',width:150}
+                    ],
+                    height: 320,
+                    showBorders: true,
+                    showRowLines: true,
+                    wordWrapEnabled: true,
+                    selection: { mode: 'single' },
+                    hoverStateEnabled: true,
+                    loadPanel: { enabled: true },
+                    rowAlternationEnabled:true
+                 }"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

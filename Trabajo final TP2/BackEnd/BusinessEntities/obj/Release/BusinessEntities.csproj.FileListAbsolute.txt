@@ -1,0 +1,4 @@
+D:\UPC\Desarrollo para moviles\BackEnd\BusinessEntities\bin\Release\BusinessEntities.dll
+D:\UPC\Desarrollo para moviles\BackEnd\BusinessEntities\bin\Release\BusinessEntities.pdb
+D:\UPC\Desarrollo para moviles\BackEnd\BusinessEntities\obj\Release\BusinessEntities.dll
+D:\UPC\Desarrollo para moviles\BackEnd\BusinessEntities\obj\Release\BusinessEntities.pdb

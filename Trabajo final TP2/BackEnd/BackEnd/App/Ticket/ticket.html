@@ -1,0 +1,598 @@
+﻿
+<div ng-controller="ticketController">
+    <div style="height:5px"></div>
+    <div><a href="#home">Menú principal</a>&nbsp;&nbsp;&nbsp;<a href="#logout">Salir del sistema</a></div>
+    <div style="height:5px"></div>
+    <div id="title"><h3><b>Consultar Ticket</b></h3></div>
+</div>
+    <div class="ContentTable">
+        <div>
+            <div class="ContentLabel" style="width:150px">N° Ticket:</div>
+            <div class="ContentInput">
+                <div id="txt_Ticket" dx-text-box="{ width: 350 }"></div>
+            </div>
+        
+            <div class="ContentLabel" style="width:150px">Empresa:</div>
+            <div class="ContentInput">
+                <div id="txt_Empresa" dx-text-box="{ width: 350 }"></div>
+            </div>
+        </div>
+     </div>
+    <div class="ContentTable">
+    <div>
+        <div class="ContentLabel" style="width:150px">Fecha Inicio:</div>
+        <div class="ContentInput">
+            <input id="d_fechaIni" type="date" name="d_fechaIni" value="2017-06-01T">
+        </div>
+
+        <div class="ContentLabel" style="width:150px">Fecha Fin:</div>
+        <div class="ContentInput">
+            <input id="d_fechaFin" type="date" name="d_fechaFin" value="2017-06-01T">
+        </div>
+
+        <div class="ContentLabel" style="width:150px">Estado:</div>
+        <div class="ContentInput">
+            <div id="c_Status" ng-init="initDataStatus()" dx-select-box="{  displayExpr: 'EST_Descripcion',
+                                                                                  valueExpr: 'EST_Id',
+                                                                                  searchEnabled: true,
+                                                                                  searchMode: 'contains',
+                                                                                  width: 150}"></div>
+        </div>
+
+
+        <div>
+            <br />
+            <div>
+                <div id="btnConsultar" class="ContentButton">
+                    <div dx-button="{ text:'Consultar',onClick:initData }"></div>
+                </div>
+                <div id="btnNuevo" class="ContentButton">
+                    <div dx-button="{ text:'Nuevo',onClick:showPopupNew }"></div>
+                </div>
+            </div>
+            <br />
+
+        </div>
+    </div>
+
+
+    <div id="gdvUsers" style="width:100%" data-ng-init="initData()" dx-data-grid="{
+            columns:[
+
+						{ dataField:'TIC_Code',caption:'N° Ticket',width:120},
+                        { dataField:'EMP_RazonSocial',caption:'Empresa',width:270},
+						{ dataField:'TIC_USU_Description',caption:'Usuario Solicitante',width:170},
+						{ dataField:'TIC_FechaRegistroDescription',caption:'Fecha Registro',width:170},
+                        { dataField:'ATE_FechaAtencion',caption:'Fecha Atención',width:170},
+                        { dataField:'TIC_USU_RESP_Description',caption:'Usuario Responsable',width:170},
+                        { dataField:'StatusName',caption:'Estado',width:100},
+                        { dataField:'RST_Id',caption:'N° Resultado', width:90, visible:false},
+                        {
+                            dataField:'TIC_Id',
+                            caption:' ',
+                            width:50,
+                            cellTemplate: cellTemplate,
+                            allowSorting: false,
+                            allowFiltering: false,
+                            alignment: 'center'
+                        },
+                        {
+                            dataField:'TIC_Id',
+                            caption:' ',
+                            width:50,
+                            cellTemplate: cellTemplateCheck,
+                            allowSorting: false,
+                            allowFiltering: false,
+                            alignment: 'center'
+                        },
+                        {
+                            dataField:'TIC_Id',
+                            caption:' ',
+                            width:50,
+                            cellTemplate: cellTemplateDoc,
+                            allowSorting: false,
+                            allowFiltering: false,
+                            alignment: 'center'
+                        },
+                        {
+                            dataField:'TIC_Id',
+                            caption:' ',
+                            width:50,
+                            cellTemplate: cellTemplateHistoric,
+                            allowSorting: false,
+                            allowFiltering: false,
+                            alignment: 'center'
+                        },
+            ],
+            filterRow: {
+                visible: true
+            },
+            sorting: {
+                mode: 'multiple'
+            },
+            paging: {
+                pageSize: 30
+            },
+            pager: {
+                    showPageSizeSelector: true,
+                    allowedPageSizes: [10, 20, 50, 100]
+            },
+            summary:{
+	            totalItems:[{
+		            column: 'Nombre comercio',
+		            summaryType: 'count'
+	            }]
+            },
+            height: hgt,
+            showBorders: true,
+            showRowLines: true,
+            wordWrapEnabled: true,
+            selection: { mode: 'single' },
+            hoverStateEnabled: true,
+            loadPanel: { enabled: true },
+            rowAlternationEnabled:true
+         }"></div>
+
+    <div id="popupTicket" dx-popup="{ width: 600, height: 500, deferRendering: false,
+         title: '', toolbarItems: buttonsActionTicket }">
+        <div class="ContentTable">
+            <div>
+                <div class="ContentLabel" style="width:150px">Empresa:</div>
+                <div class="ContentInput">
+                    <div id="txtRazonSocial" dx-text-box="{ width: 250, readOnly: true }"></div>
+                    <div id="txtEnterpriseId" dx-text-box="{ visible:false, width: 250, readOnly: true }"></div>
+
+                </div>
+                <div class="ContentButton">
+                    <div dx-button="{ text:'...',onClick:showPopupSearchEnterprise }"></div>
+                </div>
+            </div>
+            <div>
+                <div class="ContentLabel" style="width:150px">Usuario Solicitante:</div>
+                <div class="ContentInput">
+                    <div id="txtUser" dx-text-box="{ width: 250, readOnly: true }"></div>
+                    <div id="txtUserId" dx-text-box="{ visible:false, width: 250, readOnly: true }"></div>
+                </div>
+                <div class="ContentButton">
+                    <div dx-button="{ text:'...',onClick:showPopupSearchUserClient }"></div>
+                </div>
+            </div>
+            <div>
+                <div class="ContentLabel" style="width:150px">Servicio:</div>
+                <div class="ContentInput">
+                    <div id="c_Service" ng-init="initDataService()" dx-select-box="{  displayExpr: 'SER_Descripcion',
+                                                                                  valueExpr: 'SER_Id',
+                                                                                  searchEnabled: true,
+                                                                                  searchMode: 'contains',
+                                                                                  width: 250 }"></div>
+
+
+                </div>
+            </div>
+            <div>
+                <div class="ContentLabel" style="width:150px">Tipo Problema:</div>
+                <div class="ContentInput">
+                    <div id="c_ProblemType" ng-init="initDataProblemType()" dx-select-box="{  displayExpr: 'PRO_Descripcion',
+                                                                                  valueExpr: 'PRO_Id',
+                                                                                  searchEnabled: true,
+                                                                                  searchMode: 'contains',
+                                                                                  width: 250  }">
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="ContentLabel" style="width:150px">Prioridad:</div>
+                <div class="ContentInput">
+                    <div id="c_Priority" ng-init="initDataPriority()" dx-select-box="{  displayExpr: 'Pri_Descripcion',
+                                                                                  valueExpr: 'PRI_Id',
+                                                                                  searchEnabled: true,
+                                                                                  searchMode: 'contains',
+                                                                                  width: 250}"></div>
+                </div>
+            </div>
+            <div>
+                <div class="ContentLabel" style="width:150px">Usuario Responsable:</div>
+                <div class="ContentInput">
+                    <div id="txtUsuarioResponsable" dx-text-box="{ width: 250, readOnly: true  }"></div>
+                </div>
+            </div>
+            <div>
+                <div class="ContentLabel" style="width:150px">Descripción:</div>
+                <div class="ContentInput">
+                    <div id="txtDescripcion" dx-text-area="{ width: 250, height: 150 }"></div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div id="popupSearchEnterprise" dx-popup="{ title: 'Buscar empresa', showTitle: true, deferRendering: false,
+                                           toolbarItems: buttonsActionSearchAgent, width: 600, height: 500 }">
+        <div class="ContentTable">
+            <div>
+                <div class="ContentLabel">Empresa:</div>
+                <div class="ContentInput"><div id="txtEmpresa" dx-text-box="{width:430}"></div></div>
+                <div class="ContentButton">
+                    <div dx-button="{icon:'find',onClick: searchEnterprise}"></div>
+                </div>
+            </div>
+            <div>
+                <div class="ContentLabel" style="width:550px">
+                    <div id="gdvEnterprise" style="width:550px" dx-data-grid="{
+                    columns:[
+                                {
+                                    dataField:'EMP_Id',
+                                    caption:' ',
+                                    width:50,
+                                    cellTemplate: cellTemplateEnterpriseSearch,
+                                    allowSorting: false,
+                                    allowFiltering: false,
+                                    alignment: 'center'
+                                },
+						        { dataField:'EMP_RUC',caption:'Ruc'},
+						        { dataField:'EMP_RazonSocial',caption:'Razon Social',width:300}
+
+                    ],
+                    height: 320,
+                    showBorders: true,
+                    showRowLines: true,
+                    wordWrapEnabled: true,
+                    selection: { mode: 'single' },
+                    hoverStateEnabled: true,
+                    loadPanel: { enabled: true },
+                    rowAlternationEnabled:true
+                 }"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="popupSearchUserClient" dx-popup="{ title: 'Buscar usuario', showTitle: true, deferRendering: false,
+                                           toolbarItems: buttonsActionSearchAgent, width: 600, height: 500 }">
+        <div class="ContentTable">
+            <div>
+                <div class="ContentLabel">Usuario/Cliente:</div>
+                <div class="ContentInput"><div id="txtUserClient" dx-text-box="{width:430}"></div></div>
+                <div class="ContentButton">
+                    <div dx-button="{icon:'find',onClick: searchUserClient}"></div>
+                </div>
+            </div>
+            <div>
+                <div class="ContentLabel" style="width:550px">
+                    <div id="gdvUserClient" style="width:550px" dx-data-grid="{
+                    columns:[
+                                {
+                                    dataField:'EMP_Id',
+                                    caption:' ',
+                                    width:50,
+                                    cellTemplate: cellTemplateUserClientSearch,
+                                    allowSorting: false,
+                                    allowFiltering: false,
+                                    alignment: 'center'
+                                },
+						        { dataField:'TIC_USU_CLIENT_Description',caption:'Nombre'}
+                    ],
+                    height: 320,
+                    showBorders: true,
+                    showRowLines: true,
+                    wordWrapEnabled: true,
+                    selection: { mode: 'single' },
+                    hoverStateEnabled: true,
+                    loadPanel: { enabled: true },
+                    rowAlternationEnabled:true
+                 }"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="popupSearchTicketHistorical" dx-popup="{ title: 'Historial Ticket', showTitle: true, deferRendering: false,
+                                           toolbarItems: buttonsActionSearchAgent, width: 800, height: 500 }">
+        <div class="ContentTable">
+            <!--<div>
+
+                <div class="ContentInput"><div id="txt_TIC_Id" dx-text-box="{visible: false, width:430}"></div></div>
+                <div class="ContentButton">
+                    <div dx-button="{icon:'find',onClick: initDataHistoric}"></div>
+                </div>
+
+            </div>-->
+            <div>
+                <div class="ContentLabel" style="width:650px">
+                    <div id="gdvTicketHistorical" style="width:750px" dx-data-grid="{
+                    columns:[
+                                
+                                { dataField:'TIC_Code',caption:'N° Ticket', width:80},
+                                { dataField:'Pri_Descripcion',caption:'Prioridad', width:80},
+                                { dataField:'RES_Nombre',caption:'Responsable', width:120},
+                                { dataField:'TIC_Descripcion',caption:'Descripción', width:150},
+						        { dataField:'FechaCambioDescription',caption:'Fecha Cambio', width:90, alignment: 'Center'},
+                                { dataField:'ATE_RST_Id',caption:'N° Resultado', width:90, alignment: 'Center'},
+                                {
+                                    dataField:'ATE_ID',
+                                    caption:' ',
+                                    width:50,
+                                    cellTemplate: cellTemplateReport,
+                                    allowSorting: false,
+                                    allowFiltering: false,
+                                    alignment: 'center'
+                                }
+                    ],
+                    height: 320,
+                    showBorders: true,
+                    showRowLines: true,
+                    wordWrapEnabled: true,
+                    selection: { mode: 'single' },
+                    hoverStateEnabled: true,
+                    loadPanel: { enabled: true },
+                    rowAlternationEnabled:true
+                 }"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ROLY -->
+
+    <div id="popupAbrirTicket" dx-popup="{ width: 600, height: 600, deferRendering: false,
+             title: '', toolbarItems: buttonsActionAtenderTicket }">
+        <div class="ContentTable">
+            <div>
+                <div class="ContentLabel" style="width:150px">Ticket:</div>
+                <div class="ContentInput"><div id="txtTicket" dx-text-box="{ width: 350, readOnly: false }"></div></div>
+            </div>
+            <div>
+                <div class="ContentLabel" style="width:150px">Empresa:</div>
+                <div class="ContentInput"><div id="txtEmpresaAbrir" dx-text-box="{ width: 350, readOnly: false }"></div></div>
+            </div>
+            <div>
+                <div class="ContentLabel" style="width:150px">Usuario Solicitante:</div>
+                <div class="ContentInput"><div id="txtUsuSol" dx-text-box="{ width: 350, readOnly: false }"></div></div>
+            </div>
+            <div>
+                <div id="txtServiceId" dx-text-box="{ visible:false, width: 250, readOnly: true }"></div>
+                <div class="ContentLabel" style="width:150px">Servicio:</div>
+                <div class="ContentInput"><div id="txtServicioAbrir" dx-text-box="{ width: 350, readOnly: true }"></div></div>
+            </div>
+            <div>
+                <div class="ContentLabel" style="width:150px">TipoProblema:</div>
+                <div class="ContentInput">
+                    <div id="cmbCOD_PRO" ng-init="initDataProblema()" dx-select-box="{  displayExpr: 'PRO_Descripcion',
+                                                                                  valueExpr: 'PRO_Id',
+                                                                                  searchEnabled: true,
+                                                                                  searchMode: 'contains',
+                                                                                  width: 150}"></div>
+
+                </div>
+                <div class="ContentLabel" style="width:160px"></div>
+                <div class="ContentButton">
+                    <div dx-button="{icon:'find',onClick:FindSolutions}"></div>
+                </div>
+                <div id="btnConsultar" class="ContentButton">
+                    <div dx-button="{ text:'Nueva Solucion'}"></div>
+                </div>
+            </div>
+            <br />
+            <div>
+                <div class="ContentLabel" style="width:550px; text-align:center;">
+                    <div id="gdvSolution" style="width:550px" dx-data-grid="{
+                    columns:[
+
+						        { dataField:'SOL_Id',caption:'Código',width:100},
+						        { dataField:'SOL_Descripcion',caption:'Descripción',width:400},
+                                {
+                                    dataField:'SOL_RutaArchivo',
+                                    caption:' ',
+                                    width:50,
+                                    cellTemplate: cellTemplateFile,
+                                    allowSorting: false,
+                                    allowFiltering: false,
+                                    alignment: 'center'
+                                },
+                    ],
+                    filterRow: {
+                        visible: true
+                    },
+                    sorting: {
+                        mode: 'multiple'
+                    },
+                    paging: {
+                        pageSize: 30
+                    },
+                    pager: {
+                            showPageSizeSelector: true,
+                            allowedPageSizes: [10, 20, 50, 100]
+                    },
+                    summary:{
+	                    totalItems:[{
+		                    column: 'Nombre comercio',
+		                    summaryType: 'count'
+	                    }]
+                    },
+                    height: 320,
+                        showBorders: true,
+                        showRowLines: true,
+                        wordWrapEnabled: true,
+                        selection: { mode: 'single' },
+                        hoverStateEnabled: true,
+                        loadPanel: { enabled: true },
+                        rowAlternationEnabled:true
+                 }"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="popupSearchResponsible" dx-popup="{ title: 'Buscar agente', showTitle: true, deferRendering: false,
+                                           toolbarItems: buttonsActionSearchResponsible, width: 600, height: 500 }">
+        <div class="ContentTable">
+            <div>
+                <div class="ContentLabel">Responsable:</div>
+                <div class="ContentInput"><div id="txtALF_Responsible" dx-text-box="{width:430}"></div></div>
+                <div class="ContentButton">
+                    <div dx-button="{icon:'find',onClick:searchResponsible}"></div>
+                </div>
+            </div>
+            <div>
+                <div class="ContentLabel" style="width:550px">
+                    <div id="gdvResponsible" style="width:550px" dx-data-grid="{
+                    columns:[
+                                {
+                                    dataField:'RES_Id',
+                                    caption:' ',
+                                    width:50,
+                                    cellTemplate: cellTemplateResponsibleSearch,
+                                    allowSorting: false,
+                                    allowFiltering: false,
+                                    alignment: 'center'
+                                },
+						        { dataField:'USU_RESP_Description',caption:'Responsable'},
+						        { dataField:'RES_IdLogin',Login:'Dni',width:150}
+                    ],
+                    height: 320,
+                    showBorders: true,
+                    showRowLines: true,
+                    wordWrapEnabled: true,
+                    selection: { mode: 'single' },
+                    hoverStateEnabled: true,
+                    loadPanel: { enabled: true },
+                    rowAlternationEnabled:true
+                 }"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="popupTicketEdit" dx-popup="{ width: 600, height: 600, deferRendering: false,
+        title: '', toolbarItems: buttonsActionTicketEdit }">
+        <div class="ContentTable">
+            <div>
+                <div class="ContentLabel" style="width:150px">Número de ticket:</div>
+                <div class="ContentInput">
+                    <div id="tctTicketCodeEdit" dx-text-box="{ width: 250, readOnly: true }"></div>
+                </div>
+            </div>
+            <div>
+                <div id="txtTicketIdEdit" dx-text-box="{ visible:false, width: 350, readOnly: true, readOnly:true }"></div>
+                <div class="ContentLabel" style="width:150px">Empresa:</div>
+                <div class="ContentInput">
+                    <div id="txtRazonSocialEdit" dx-text-box="{ width: 250, readOnly: true }"></div>
+                </div>
+                <div id="btnBuscarEmpresaEdit" class="ContentButton">
+                    <div dx-button="{ text:'...',onClick:showPopupSearchResponsible }"></div>
+                </div>
+            </div>
+            <div>
+                <div class="ContentLabel" style="width:150px">Usuario Solicitante:</div>
+                <div class="ContentInput">
+                    <div id="txtUserEdit" dx-text-box="{ width: 250, readOnly: true }"></div>
+                </div>
+                <div id="btnBuscarUsuarioEdit" class="ContentButton">
+                    <div dx-button="{ text:'...',onClick:showPopupSearchAgent }"></div>
+                </div>
+            </div>
+            <div>
+                <div class="ContentLabel" style="width:150px">Servicio:</div>
+                <div class="ContentInput">
+                    <div id="c_ServiceEdit" ng-init="initDataService()" dx-select-box="{  displayExpr: 'SER_Descripcion',
+                                                                                valueExpr: 'SER_Id',
+                                                                                searchEnabled: true,
+                                                                                searchMode: 'contains',
+                                                                                width: 250}"></div>
+                </div>
+            </div>
+            <div>
+                <div class="ContentLabel" style="width:150px">Tipo Problema:</div>
+                <div class="ContentInput">
+                    <div id="c_ProblemTypeEdit" ng-init="initDataProblemType()" dx-select-box="{  displayExpr: 'PRO_Descripcion',
+                                                                                valueExpr: 'PRO_Id',
+                                                                                searchEnabled: true,
+                                                                                searchMode: 'contains',
+                                                                                width: 250}"></div>
+                </div>
+            </div>
+            <div>
+                <div class="ContentLabel" style="width:150px">Prioridad:</div>
+                <div class="ContentInput">
+                    <div id="c_PriorityEdit" ng-init="initDataPriority()" dx-select-box="{  displayExpr: 'Pri_Descripcion',
+                                                                                valueExpr: 'PRI_Id',
+                                                                                searchEnabled: true,
+                                                                                searchMode: 'contains',
+                                                                                width: 250}"></div>
+                </div>
+            </div>
+            <div>
+                <div id="txtIdResponsibleEdit" dx-text-box="{ visible:false, width: 350, readOnly: true, readOnly:true }"></div>
+                <div class="ContentLabel" style="width:150px">Usuario Responsable:</div>
+                <div class="ContentInput">
+                    <div id="txtUserResponsibleEdit" dx-text-box="{ width: 250 }"></div>
+                </div>
+                <div id="btnBuscarResponsable" class="ContentButton">
+                    <div dx-button="{ text:'...',onClick:showPopupSearchResponsible }"></div>
+                </div>
+            </div>
+            <div>
+                <div class="ContentLabel" style="width:150px">Descripción:</div>
+                <div class="ContentInput">
+                    <div id="txtDescriptionEdit" dx-text-area="{ width: 250, height: 150 }"></div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div id="popupTicketAttend" dx-popup="{ width: 500, height: 470, deferRendering: false,
+    title: '' }">
+        <div class="ContentTable">
+            <div>
+                <div id="txtTicketIdAttend" dx-text-box="{ visible:false, width: 350, readOnly: true, readOnly:true }"></div>
+                <div class="ContentLabel" style="width:200px">Ticket:</div>
+                <div class="ContentInput">
+                    <div id="txtTicketAttend" dx-text-box="{ width: 250, readOnly: true }"></div>
+                </div>
+            </div>
+            <div>
+                <div class="ContentLabel" style="width:200px">Fecha Inicio de Atención:</div>
+                <div class="ContentInput">
+                    <input id="txtFechaIniAttend" type="datetime-local" name="txtFechaIniAttend" dx-text-box="{ width: 250, height: 34}">
+                </div>
+            </div>
+            <div>
+                <div class="ContentLabel" style="width:200px">Fecha Fin de Atención:</div>
+                <div class="ContentInput">
+                    <input id="txtFechaFinAttend" type="datetime-local" name="txtFechaFinAttend" dx-text-box="{ width: 250, height: 34}">
+                </div>
+            </div>
+            <div>
+                <div class="ContentLabel" style="width:200px">Resuelto?</div>
+                <div class="ContentInput"><div id="chkResuelto" dx-check-box="{}"></div></div>
+            </div>
+            <br />
+            <div>
+                <div class="ContentLabel" style="width:225px">Descripción de Incidente:</div>
+                <div class="ContentLabel" style="width:225px">Detalle del Trabajo:</div>
+            </div>
+            <div>
+                <div class="ContentInput">
+                    <div id="txtDescripcionAttend" dx-text-area="{ width: 225, height: 150, readOnly: true }"></div>
+                </div>
+                <div class="ContentInput">
+                    <div id="txtTrabajoAttend" dx-text-area="{ width: 225, height: 150 }"></div>
+                </div>
+            </div>
+            <div>
+                <br />
+                <div class="ContentLabel" style="width:380px"></div>
+                <div id="btnInsertAttend" class="ContentButton">
+                    <div dx-button="{ text:'',onClick:AttendInsert, hint: 'Guardar', icon: 'save', width: 90}"></div>
+                </div>
+                    
+
+                <br />
+
+            </div>
+
+        </div>
+    </div>
+
+</div>

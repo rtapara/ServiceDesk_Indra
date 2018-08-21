@@ -1,0 +1,28 @@
+﻿<div ng-controller="loginController">
+    <div style="padding-left:30px">
+        <div class="ContentTable">
+            <div>
+                <h3><b>Credenciales de usuario</b></h3>
+            </div>
+            <div style="height:12px"></div>
+            <div>
+                <div class="ContentLabel" style="width:100px">Usuario:</div>
+                <div class="ContentInput">
+                    <div id="txtCOD_USUA" dx-text-box="{width:150}"></div>
+                </div>
+            </div>
+            <div>
+                <div class="ContentLabel" style="width:100px">Contraseña:</div>
+                <div class="ContentInput">
+                    <div id="txtALF_PASS" dx-text-box="{width:150,mode:'password'}"></div>
+                </div>
+            </div>
+            <div>
+                <div class="ContentLabel" style="width:100px"></div>
+                <div class="ContentButton">
+                    <div dx-button="{text:'Ingresar',width:150,onClick:login}"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
